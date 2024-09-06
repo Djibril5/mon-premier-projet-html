@@ -88,6 +88,7 @@ img{
 .titre_section{
 display: flex;
 align-items: center;
+color: #e67c7c;
 }
 /* le formulaire*/
 form{
@@ -127,9 +128,13 @@ input{
     padding: 10px;
     width: 150px;
     border-radius: 10px;
+    box-shadow: 2px 2px 0 0 #e67c7c;
     font-size: large;
-    background-color: #f30303;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
     margin-top: 20px;
+    color: #000000;
+    background-color: rgb(255, 255, 252);
 }
 
 .envoie:hover{
